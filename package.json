@@ -1,0 +1,38 @@
+{
+  "name": "js-npm",
+  "version": "1.0.0",
+  "description": "study nodejs npm",
+  "exports": {
+    ".": "./index.js",
+    "./write": "./write.js"
+  },
+  "scripts": {
+    "prestart": "echo 'Before application start'",
+    "start": "node index.js",
+    "poststart": "echo 'After application start'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azizalfauzi/node-js-npm.git"
+  },
+  "keywords": [
+    "Aziz",
+    "Alfauzi",
+    "Back",
+    "end",
+    "developer",
+    "Informatic",
+    "Engineer"
+  ],
+  "author": "Aziz Alfauzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azizalfauzi/node-js-npm/issues"
+  },
+  "homepage": "https://github.com/Azizalfauzi/node-js-npm#readme",
+  "type": "module",
+  "dependencies": {
+    "lodash": "4.17.21"
+  }
+}
